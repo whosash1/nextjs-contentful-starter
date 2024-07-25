@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshMatress-Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+    <header class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">AshMatress-Store</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Accueil</a></li>
+                    <li><a href="produits.html" class="hover:underline">Produits</a></li>
+                    <li><a href="a-propos.html" class="hover:underline">À propos</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-gray-100 py-12">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Bienvenue chez AshMatress-Store</h2>
+                <p class="mb-8">Découvrez les meilleurs matelas pour un sommeil confortable.</p>
+                <a href="produits.html" class="bg-blue-500 text-white py-2 px-4 rounded">Achetez maintenant</a>
+            </div>
+        </section>
+        <section class="container mx-auto py-12">
+            <h3 class="text-2xl font-bold mb-6">Produits phares</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="matelas1.jpg" alt="Matelas 1" class="w-full h-48 object-cover mb-4">
+                    <h4 class="text-xl font-bold">Matelas 1</h4>
+                    <p class="text-gray-600">$499.99</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="matelas2.jpg" alt="Matelas 2" class="w-full h-48 object-cover mb-4">
+                    <h4 class="text-xl font-bold">Matelas 2</h4>
+                    <p class="text-gray-600">$599.99</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="matelas3.jpg" alt="Matelas 3" class="w-full h-48 object-cover mb-4">
+                    <h4 class="text-xl font-bold">Matelas 3</h4>
+                    <p class="text-gray-600">$699.99</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-500 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 AshMatress-Store. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
